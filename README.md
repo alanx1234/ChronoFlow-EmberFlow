@@ -1,7 +1,7 @@
 # EmberFlow
 
-Emberflow extends [ChronoFlow](https://github.com/pvanlane/ChronoFlow)
-([Van-Lane et al. 2025]()) into a mass-conditioned model calibrated for M dwarfs.
+Emberflow extends [ChronoFlow](https://github.com/philvanlane/chronoflow)
+([Van-Lane et al. 2025](https://arxiv.org/abs/2412.12244)) into a mass-conditioned model calibrated for M dwarfs.
 
 The model uses a conditional normalizing flow that learns the density of
 rotation period given age $\tau$, stellar mass $M_\star$, and mass uncertainty $\sigma_M$:
@@ -45,14 +45,14 @@ measured rotation periods and age estimates.
 
 **Identifiers and position**
 
-| Column | Unit | Description |
-|---|---|---|
-| `source_paper` | — | Literature source of the rotation period and age (see `sources.csv`) |
-| `star_name` | — | Star name or `Gaia DR3 <id>` for stars inherited from the ChronoFlow catalog |
+| Column | Description |
+|---|---|
+| `source_paper` | Literature source of the rotation period and age (see `sources.csv`) |
+| `star_name` | Star name or `Gaia DR3 <id>` for stars inherited from the ChronoFlow catalog |
 | `cluster_name` | — | Cluster or association for coeval stars |
-| `source_id` | — | Gaia DR3 source ID |
-| `twomass_id` | — | 2MASS identifier |
-| `ra`, `dec` | deg | Right ascension and declination |
+| `source_id` | Gaia DR3 source ID |
+| `twomass_id` | 2MASS identifier |
+| `ra`, `dec` | Right ascension and declination |
 
 **Rotation and age** 
 
@@ -76,18 +76,18 @@ measured rotation periods and age estimates.
 
 **Gaia photometry and quality**
 
-| Column | Unit | Description |
-|---|---|---|
-|  `bp_rp_0` | mag | Gaia BP–RP de-reddened color  |
-| `phot_g_mean_mag` | mag | Gaia $G$ magnitude |
-| `ruwe` | — | Gaia RUWE |
+| Column | Description |
+|---|---|
+|  `bp_rp_0` | Gaia BP–RP de-reddened color  |
+| `phot_g_mean_mag` | Gaia $G$ magnitude |
+| `ruwe` | Gaia RUWE |
 
 **Magnetic activity**
 
-| Column | Unit | Description |
-|---|---|---|
-| `tau_ce_days`, `tau_ce_err_days` | days | Convective turnover timescale |
-| `rossby_number` | — | Rossby number, $Ro = P_{\rm rot}/\tau_{\rm ce}$ |
+| Column | Description |
+|---|---|
+| `tau_ce_days`, `tau_ce_err_days` |  Convective turnover timescale |
+| `rossby_number` | Rossby number, $Ro = P_{\rm rot}/\tau_{\rm ce}$ |
 
 
 ## Citation
