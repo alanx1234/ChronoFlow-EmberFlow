@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper below and Van-Lane et al. (2025), which it extends."
+title: "EmberFlow: Extending ChronoFlow for M-dwarf Gyrochronology"
+version: 0.1.0
+type: software
+authors:
+  - family-names: Xia
+    given-names: Alan
+    orcid: "https://orcid.org/0009-0004-2624-0552"
+    affiliation: "Halıcıoğlu Data Science Institute, University of California San Diego"
+  - family-names: Van-Lane
+    given-names: "Phil R."
+    orcid: "https://orcid.org/0009-0009-4567-9946"
+    affiliation: "David A. Dunlap Department of Astronomy & Astrophysics, University of Toronto"
+  - family-names: Theissen
+    given-names: "Christopher A."
+    orcid: "https://orcid.org/0000-0002-9807-5435"
+    affiliation: "Department of Astronomy & Astrophysics, University of California San Diego"

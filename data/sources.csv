@@ -1,0 +1,9 @@
+source_paper,bibtex_key,population,age_calibration,n_stars
+MOCAdb,MOCAdb...2026arXiv260215695G,Open clusters and associations,Group ages,3684
+ChronoFlow,VanLane2025ChronoFlow,Open clusters and associations,Group ages,2126
+Feinstein2024,Feinstein...2024AJ....168...60F,"Young moving groups, clusters, and associations",Group ages,487
+Mamonova2025,Mamonova...2025AA...700A..53M,Young moving groups and clusters,Group ages,233
+Engle2023,engle2023livingreddwarfrotationage,Age-benchmarked M dwarfs,"Companion, kinematic, or system ages",37
+Pass2022,Pass_2022,Wide FGK-M and WD-M binaries,Ages from FGK or white-dwarf companions,9
+Kiraga2007,Kiraga2007,Old-disk M dwarfs,Approximate old-disk age (10 Gyr),4
+Chiti2024,Chiti2024,Wide WD-M binaries,White-dwarf total ages,4
