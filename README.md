@@ -12,6 +12,8 @@ We can also use Bayesian inference to estimate ages for M dwarfs from a rotation
 EmberFlow returns a full age posterior per star, learned at the population level, instead of a single point estimate.
 This matters for M dwarfs in particular because a single rotation period can map to multiple ages.
 
+For convenience, the [web tool](https://chronoflow-emberflow.vercel.app/) is also available.
+
 ## Install
 
 This project is managed with uv:
