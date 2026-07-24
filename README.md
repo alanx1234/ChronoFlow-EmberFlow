@@ -6,7 +6,7 @@ Emberflow extends [ChronoFlow](https://github.com/philvanlane/chronoflow)
 The model uses a conditional normalizing flow that learns the density of
 rotation period given age $\tau$, stellar mass $M_\star$, and mass uncertainty $\sigma_M$:
 
-$$p\left(\log P_{\mathrm{rot}} \mid \log \tau,\; M_\star,\; \sigma_M\right)$$
+$$p\left(\log P_{\mathrm{rot}} \mid \log  \tau\, M_\star\, \sigma_M\right)$$
 
 We can also use Bayesian inference to estimate ages for M dwarfs from a rotation period and a stellar mass (in solar masses). 
 EmberFlow returns a full age posterior per star, learned at the population level, instead of a single point estimate.
