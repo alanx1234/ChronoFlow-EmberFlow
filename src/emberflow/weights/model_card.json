@@ -18,12 +18,13 @@
   "n_samples": 10,
   "lr": 0.001,
   "seed": 42,
-  "n_train": 6584,
-  "final_train_loss": 0.2718825702040086,
+  "n_train": 6558,
+  "final_train_loss": 0.27258179048999076,
+  "distances": "Bailer-Jones et al. (2021) geometric",
   "training_range": {
     "mass_msun": [
-      0.0980828133327475,
-      0.6738609822056498
+      0.0979526760070402,
+      0.6735293821917114
     ],
     "prot_days": [
       0.0824,
