@@ -42,7 +42,7 @@ We include tutorial notebooks for reference on how to use EmberFlow.
 
 ## Data
 
-`data/training_stars.csv`  includes 6,584 unique M dwarfs with
+`data/training_stars.csv`  includes 6,558 unique M dwarfs with
 measured rotation periods and age estimates. 
 
 **Identifiers and position**
